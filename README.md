@@ -7,14 +7,14 @@ This project provides a simple structure to start with Spring Cloud Streams.
 * cloudstreamproducer: Sets up a simple web application for sending a greeting message 
 * cloudstreamconsumer: a simple application receiving and outputing the greeting message to a log
 
-##Requirements
+## Requirements
 
 * maven
 * jdk 1.8
 * Docker/Docker compose
 
 
-##To run
+## To run
 
 Start up the kafka server via docker-compose
 
@@ -37,7 +37,7 @@ You should see the name "homer" in the log of the consumer. Ex.
 
     2018-03-22 12:50:45.980  INFO 11545 --- [container-0-C-1] c.e.cloudstream.ConsumerApplication      : homer
 
-##Resources
+## Resources
 
 [Getting Started on Spring.io site](http://cloud.spring.io/spring-cloud-stream/)
 | [Docs](https://docs.spring.io/spring-cloud-stream/docs/current/reference/htmlsingle/)
